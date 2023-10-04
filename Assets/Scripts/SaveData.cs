@@ -6,8 +6,7 @@ namespace Anecdotes
     public class SaveData
     {
         public static SaveData Instance { get; private set; }
-
-        public event Action DataChanged;
+        
         public string Language { get; private set; }
 
         static SaveData()
@@ -23,7 +22,7 @@ namespace Anecdotes
         public void SetLanguage(string lan)
         {
             Language = lan;
-            DataChanged?.Invoke();
+            GameEventManager.Instance.DataChanged?.Invoke();
         }
     }
 }

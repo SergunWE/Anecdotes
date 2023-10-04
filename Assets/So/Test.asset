@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7694be6dce4e6b641aeb0fa6fd6be5cf, type: 3}
   m_Name: Test
   m_EditorClassIdentifier: 
-  ruJoke: "\u0442\u0435\u0441\u0442"
-  enJoke: test
+  ruJoke: "\u0442\u0435\u0441\u0442 \u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430"
+  enJoke: test ahahahaha

@@ -1,6 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -118,7 +119,7 @@ namespace YandexSDK.Scripts
         {
             try
             {
-                string json = JsonUtility.ToJson(playerData);
+                string json = JsonConvert.SerializeObject(playerData);
                 savePlayerData(json);
             }
             catch
@@ -129,6 +130,10 @@ namespace YandexSDK.Scripts
 
         public static void LoadPlayerData(GameObject gameObject, string methodName)
         {
+#if UNITY_EDITOR
+            gameObject.SendMessage(methodName, "DEBUG");
+            return;
+#endif
             try
             {
                 loadPlayerData(gameObject.name, methodName);
@@ -163,11 +168,15 @@ namespace YandexSDK.Scripts
             }
         }
 
-        public static void ShowSplashAdv(string objectName, string methodName)
+        public static void ShowSplashAdv(GameObject gameObject, string methodName)
         {
+#if UNITY_EDITOR
+            gameObject.SendMessage(methodName, (object)0);
+            gameObject.SendMessage(methodName, 1);
+#endif
             try
             {
-                showSplashPageAdv(objectName, methodName);
+                showSplashPageAdv(gameObject.name, methodName);
             }
             catch
             {
@@ -178,8 +187,9 @@ namespace YandexSDK.Scripts
         public static void ShowRewardedAdv(GameObject gameObject, string methodName)
         {
 #if UNITY_EDITOR
+            gameObject.SendMessage(methodName, (object)0);
             gameObject.SendMessage(methodName, 1);
-            return;
+            gameObject.SendMessage(methodName, 2);
 #endif
             try
             {

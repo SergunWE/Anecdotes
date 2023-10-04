@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -23,17 +24,50 @@ namespace Anecdotes
 
         private void OnEnable()
         {
-            SaveData.Instance.DataChanged += OnDataChanged;
+            GameEventManager.Instance.DataChanged += OnDataChanged;
+            GameEventManager.Instance.Reaction += StartNewJoke;
+            FullscreenAdManager.Instance.AdClosed += StartNewJoke;
+            
         }
         
         private void OnDisable()
         {
-            SaveData.Instance.DataChanged -= OnDataChanged;
+            GameEventManager.Instance.DataChanged -= OnDataChanged;
+            GameEventManager.Instance.Reaction -= StartNewJoke;
+            FullscreenAdManager.Instance.AdClosed -= StartNewJoke;
         }
 
         private void OnDataChanged()
         {
-            _control.ShowJoke();
+            _control.UpdateJokesText();
+        }
+
+        private void Start()
+        {
+            StartNewJoke();
+        }
+        
+        private void StartNewJoke()
+        {
+            if (FullscreenAdManager.Instance.CanShowAd())
+            {
+                FullscreenAdManager.Instance.ShowAd();
+            }
+            else
+            {
+                StopCoroutine(ShowJokeCoroutine());
+                StartCoroutine(ShowJokeCoroutine());
+                
+            }
+        }
+
+        private IEnumerator ShowJokeCoroutine()
+        {
+            _control.CreateNewJoke();
+            yield return new WaitForSeconds(1f);
+            _control.ShowIncomingMessage();
+            yield return new WaitForSeconds(1f);
+            _control.ShowSentMessage();
         }
     }
 }

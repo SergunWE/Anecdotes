@@ -1,5 +1,18 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Anecdotes.MainPageCustomControl style="width: 100%; height: 100%;">
-        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" style="flex-grow: 1;" />
+    <ui:Template name="IncomingMessage" src="project://database/Assets/UI/IncomingMessage.uxml?fileID=9197481963319205126&amp;guid=92974e0d5aeccee4bada8fa4ea2d0d34&amp;type=3#IncomingMessage" />
+    <ui:Template name="SentMessage" src="project://database/Assets/UI/SentMessage.uxml?fileID=9197481963319205126&amp;guid=e48859f58b2aae445ab20f9b452fc384&amp;type=3#SentMessage" />
+    <Style src="project://database/Assets/UI/Style.uss?fileID=7433441132597879392&amp;guid=ea290a2e32b54e04d9e86476dd9e5615&amp;type=3#Style" />
+    <Anecdotes.MainPageCustomControl style="width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Sprites/wallpaperflare.com_wallpaper.jpg?fileID=21300000&amp;guid=795e957cb76dee44c90873508bcc02ae&amp;type=3#wallpaperflare.com_wallpaper&apos;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" vertical-scroller-visibility="AlwaysVisible" horizontal-scroller-visibility="Hidden" touch-scroll-type="Clamped" nested-interaction-kind="Default" mouse-wheel-scroll-size="50" style="flex-grow: 1;">
+            <ui:Instance template="IncomingMessage" name="IncomingMessage" />
+            <ui:Instance template="SentMessage" name="SentMessage" />
+            <ui:Instance template="IncomingMessage" name="IncomingMessage" />
+            <ui:Instance template="SentMessage" name="SentMessage" />
+            <ui:Instance template="IncomingMessage" name="IncomingMessage" />
+            <ui:Instance template="SentMessage" name="SentMessage" />
+            <ui:Instance template="IncomingMessage" name="IncomingMessage" />
+            <ui:Instance template="SentMessage" name="SentMessage" />
+            <ui:Instance template="IncomingMessage" name="IncomingMessage" />
+        </ui:ScrollView>
     </Anecdotes.MainPageCustomControl>
 </ui:UXML>

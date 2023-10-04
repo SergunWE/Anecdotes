@@ -1,3 +1,13 @@
 Label {
-    font-size: 24;
+    font-size: 40px;
+}
+
+.unity-scroll-view__content-viewport {
+    /*justify-content: flex-end;*/
+    /*flex-direction: column-reverse;*/
+}
+
+.unity-scroll-view__content-container {
+    /*justify-content: flex-end;*/
+    /*flex-direction: column-reverse;*/
 }
