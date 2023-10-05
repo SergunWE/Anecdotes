@@ -22,6 +22,7 @@ namespace Anecdotes
         private Label _contactText;
         private VisualElement _ruButton;
         private VisualElement _enButton;
+        private Label _onlineText;
 
         public new class UxmlFactory : UxmlFactory<MainPageCustomControl>
         {
@@ -40,10 +41,13 @@ namespace Anecdotes
             _contactText = this.Q<Label>("ContactText");
             _ruButton = this.Q<VisualElement>("Ru");
             _enButton = this.Q<VisualElement>("En");
+            _onlineText = this.Q<Label>("OnlineText");
 
             _contactText.text = SaveData.Instance.Language == "ru" ? "Твой друг" : "Your friend";
             _ruButton.RegisterCallback<ClickEvent, string>(OnLanguageButtonClicked, "ru");
             _enButton.RegisterCallback<ClickEvent, string>(OnLanguageButtonClicked, "en");
+            
+            _onlineText.text = SaveData.Instance.Language == "ru" ? "В сети" : "Online";
 
             //_scrollContainer.RegisterCallback<GeometryChangedEvent>(Callback);
         }
@@ -82,6 +86,7 @@ namespace Anecdotes
         {
             _scrollContainer.RegisterCallback<GeometryChangedEvent>(Callback);
             _scrollView.Add(_currentIncoming);
+            GameEventManager.Instance.MessageIncoming?.Invoke();
         }
 
         public void ShowSentMessage()
@@ -93,6 +98,7 @@ namespace Anecdotes
         public void UpdateJokesText()
         {
             _contactText.text = SaveData.Instance.Language == "ru" ? "Твой друг" : "Your friend";
+            _onlineText.text = SaveData.Instance.Language == "ru" ? "В сети" : "Online";
             
             var jokesList = _scrollView.Query<IncomingMessageCustomControl>().ToList();
             foreach (var joke in jokesList)

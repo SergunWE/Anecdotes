@@ -8,6 +8,7 @@ namespace Anecdotes
         
         public Action DataChanged { get; set; }
         public Action Reaction { get; set; }
+        public Action MessageIncoming { get; set; }
         
         static GameEventManager()
         {

@@ -6,7 +6,10 @@
         <ui:VisualElement style="flex-grow: 0; height: 200px; background-color: rgb(36, 55, 101); border-bottom-width: 5px; border-bottom-color: rgb(0, 0, 0); flex-direction: row; padding-top: 40px; padding-right: 20px; padding-bottom: 40px; padding-left: 20px; justify-content: space-between;">
             <ui:VisualElement name="Profile" style="flex-grow: 0; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
                 <ui:VisualElement style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/photo_2023-06-18_10-20-50.jpg?fileID=21300000&amp;guid=e28c31ccfc7bb1841977fb3d03292f5c&amp;type=3#photo_2023-06-18_10-20-50&apos;); -unity-background-scale-mode: scale-to-fit; border-top-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; width: 150px;" />
-                <ui:Label tabindex="-1" text="Анекдоты" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ContactText" style="-unity-text-align: middle-left; color: rgb(255, 255, 255); -unity-font-style: bold; white-space: normal;" />
+                <ui:VisualElement name="Texts" style="flex-grow: 1; justify-content: center;">
+                    <ui:Label tabindex="-1" text="Анекдоты" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ContactText" style="-unity-text-align: middle-left; color: rgb(255, 255, 255); -unity-font-style: bold; white-space: normal;" />
+                    <ui:Label tabindex="-1" text="Онлайн" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OnlineText" style="background-color: rgba(255, 255, 255, 0); color: rgb(179, 234, 255); font-size: 25px;" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="LanguageButtons" style="flex-grow: 1; flex-direction: row; justify-content: flex-end; align-self: stretch;">
                 <ui:VisualElement name="Ru" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/russia.png?fileID=21300000&amp;guid=207a8897d58b13b43b0522aaed4a1b52&amp;type=3#russia&apos;); -unity-background-scale-mode: scale-to-fit; padding-left: 0; padding-right: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; margin-left: 0; width: 150px;" />
