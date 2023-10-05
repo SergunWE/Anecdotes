@@ -26,15 +26,12 @@ namespace Anecdotes
         {
             GameEventManager.Instance.DataChanged += OnDataChanged;
             GameEventManager.Instance.Reaction += StartNewJoke;
-            FullscreenAdManager.Instance.AdClosed += StartNewJoke;
-            
         }
         
         private void OnDisable()
         {
             GameEventManager.Instance.DataChanged -= OnDataChanged;
             GameEventManager.Instance.Reaction -= StartNewJoke;
-            FullscreenAdManager.Instance.AdClosed -= StartNewJoke;
         }
 
         private void OnDataChanged()
@@ -44,6 +41,7 @@ namespace Anecdotes
 
         private void Start()
         {
+            FullscreenAdManager.Instance.AdClosed += StartNewJoke;
             StartNewJoke();
         }
         

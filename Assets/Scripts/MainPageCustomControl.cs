@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.UIElements.Experimental;
+using YandexSDK.Scripts;
 
 namespace Anecdotes
 {
@@ -18,6 +19,10 @@ namespace Anecdotes
 
         private ValueAnimation<float> _currentAnimation;
 
+        private Label _contactText;
+        private VisualElement _ruButton;
+        private VisualElement _enButton;
+
         public new class UxmlFactory : UxmlFactory<MainPageCustomControl>
         {
         }
@@ -32,7 +37,20 @@ namespace Anecdotes
             _scrollContainer = _scrollView.Q<VisualElement>("unity-content-container");
             _scrollView.Clear();
 
+            _contactText = this.Q<Label>("ContactText");
+            _ruButton = this.Q<VisualElement>("Ru");
+            _enButton = this.Q<VisualElement>("En");
+
+            _contactText.text = SaveData.Instance.Language == "ru" ? "Твой друг" : "Your friend";
+            _ruButton.RegisterCallback<ClickEvent, string>(OnLanguageButtonClicked, "ru");
+            _enButton.RegisterCallback<ClickEvent, string>(OnLanguageButtonClicked, "en");
+
             //_scrollContainer.RegisterCallback<GeometryChangedEvent>(Callback);
+        }
+
+        private void OnLanguageButtonClicked(ClickEvent evt, string lan)
+        {
+            SaveData.Instance.SetLanguage(lan);
         }
 
         private void Callback(GeometryChangedEvent evt)
@@ -74,6 +92,8 @@ namespace Anecdotes
 
         public void UpdateJokesText()
         {
+            _contactText.text = SaveData.Instance.Language == "ru" ? "Твой друг" : "Your friend";
+            
             var jokesList = _scrollView.Query<IncomingMessageCustomControl>().ToList();
             foreach (var joke in jokesList)
             {

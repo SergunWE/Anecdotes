@@ -5,37 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3540e3-1d13-4743-bf84-9117da793af5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FullscreenAdManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FullscreenAdManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameEventManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameEventManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IncomingMessageCustomControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IncomingMessageCustomControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PauseManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PauseManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SentMessageCustomControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SentMessageCustomControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/like.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/wallpaperflare.com_wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/wallpaperflare.com_wallpaper.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainPageCustomControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainPageCustomControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiResource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/So/Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Test.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/IncomingMessage.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/IncomingMessage.uxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UI/MainPage.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/MainPage.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/SentMessage.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/SentMessage.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Style.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Style.uss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityDefaultRuntimeTheme.tss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityDefaultRuntimeTheme.tss.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/YandexGamesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/YandexGamesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +107,8 @@
       <updated>1696439009754</updated>
       <workItem from="1696439013731" duration="27000" />
       <workItem from="1696439055399" duration="6066000" />
-      <workItem from="1696445836479" duration="6047000" />
+      <workItem from="1696445836479" duration="6639000" />
+      <workItem from="1696487959423" duration="594000" />
     </task>
     <servers />
   </component>

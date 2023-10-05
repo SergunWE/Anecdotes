@@ -3,6 +3,16 @@
     <ui:Template name="SentMessage" src="project://database/Assets/UI/SentMessage.uxml?fileID=9197481963319205126&amp;guid=e48859f58b2aae445ab20f9b452fc384&amp;type=3#SentMessage" />
     <Style src="project://database/Assets/UI/Style.uss?fileID=7433441132597879392&amp;guid=ea290a2e32b54e04d9e86476dd9e5615&amp;type=3#Style" />
     <Anecdotes.MainPageCustomControl style="width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Sprites/wallpaperflare.com_wallpaper.jpg?fileID=21300000&amp;guid=795e957cb76dee44c90873508bcc02ae&amp;type=3#wallpaperflare.com_wallpaper&apos;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement style="flex-grow: 0; height: 200px; background-color: rgb(36, 55, 101); border-bottom-width: 5px; border-bottom-color: rgb(0, 0, 0); flex-direction: row; padding-top: 40px; padding-right: 20px; padding-bottom: 40px; padding-left: 20px; justify-content: space-between;">
+            <ui:VisualElement name="Profile" style="flex-grow: 0; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                <ui:VisualElement style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/photo_2023-06-18_10-20-50.jpg?fileID=21300000&amp;guid=e28c31ccfc7bb1841977fb3d03292f5c&amp;type=3#photo_2023-06-18_10-20-50&apos;); -unity-background-scale-mode: scale-to-fit; border-top-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; border-bottom-left-radius: 100%; width: 150px;" />
+                <ui:Label tabindex="-1" text="Анекдоты" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ContactText" style="-unity-text-align: middle-left; color: rgb(255, 255, 255); -unity-font-style: bold; white-space: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="LanguageButtons" style="flex-grow: 1; flex-direction: row; justify-content: flex-end; align-self: stretch;">
+                <ui:VisualElement name="Ru" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/russia.png?fileID=21300000&amp;guid=207a8897d58b13b43b0522aaed4a1b52&amp;type=3#russia&apos;); -unity-background-scale-mode: scale-to-fit; padding-left: 0; padding-right: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; margin-left: 0; width: 150px;" />
+                <ui:VisualElement name="En" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Sprites/united-kingdom.png?fileID=21300000&amp;guid=45b9805bb5112f34d87c9af51259a2e5&amp;type=3#united-kingdom&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 150px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
         <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" vertical-scroller-visibility="AlwaysVisible" horizontal-scroller-visibility="Hidden" touch-scroll-type="Clamped" nested-interaction-kind="Default" mouse-wheel-scroll-size="50" style="flex-grow: 1;">
             <ui:Instance template="IncomingMessage" name="IncomingMessage" />
             <ui:Instance template="SentMessage" name="SentMessage" />
