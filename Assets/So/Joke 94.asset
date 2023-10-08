@@ -10,7 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7694be6dce4e6b641aeb0fa6fd6be5cf, type: 3}
-  m_Name: Test
+  m_Name: Joke 94
   m_EditorClassIdentifier: 
-  ruJoke: "\u0442\u0435\u0441\u0442 \u0430\u0445\u0430\u0445\u0430\u0445\u0430\u0445\u0430"
-  enJoke: test ahahahaha
+  ruJoke: "- \u041C\u043D\u0435, \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+    \u043F\u043E\u043B \u0430\u0440\u0431\u0443\u0437\u0430.\r\n- \u042D\u0442\u043E
+    \u0441\u0430\u043C\u0435\u0446."
+  enJoke: '- I''ll have the sex of the watermelon, please.
+
+    - It''s a male.'

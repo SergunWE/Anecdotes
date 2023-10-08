@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UIElements;
+using YandexSDK.Scripts;
 
 namespace Anecdotes
 {
@@ -42,6 +43,7 @@ namespace Anecdotes
         private void Start()
         {
             FullscreenAdManager.Instance.AdClosed += StartNewJoke;
+            YandexGamesManager.ApiReady();
             StartNewJoke();
         }
         

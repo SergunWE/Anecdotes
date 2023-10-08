@@ -5,25 +5,219 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3540e3-1d13-4743-bf84-9117da793af5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/incoming.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/incoming.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/sent.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/sent.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_WebGL.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 100.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 100.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 17.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 17.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 18.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 18.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 19.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 19.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 20.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 20.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 21.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 21.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 22.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 22.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 23.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 23.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 24.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 24.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 25.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 25.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 26.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 26.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 27.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 27.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 28.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 28.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 29.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 29.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 30.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 30.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 31.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 31.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 32.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 32.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 33.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 33.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 34.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 34.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 35.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 35.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 36.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 36.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 37.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 37.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 38.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 38.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 39.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 39.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 40.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 40.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 41.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 41.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 42.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 42.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 43.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 43.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 44.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 44.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 45.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 45.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 46.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 46.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 47.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 47.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 48.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 48.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 49.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 49.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 50.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 50.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 51.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 51.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 52.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 52.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 53.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 53.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 54.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 54.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 55.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 55.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 56.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 56.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 57.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 57.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 58.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 58.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 59.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 59.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 60.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 60.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 61.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 61.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 62.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 62.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 63.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 63.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 64.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 64.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 65.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 65.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 66.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 66.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 67.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 67.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 68.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 68.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 69.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 69.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 70.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 70.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 71.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 71.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 72.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 72.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 73.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 73.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 74.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 74.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 75.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 75.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 76.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 76.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 77.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 77.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 78.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 78.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 79.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 79.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 80.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 80.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 81.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 81.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 82.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 82.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 83.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 83.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 84.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 84.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 85.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 85.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 86.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 86.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 87.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 87.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 88.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 88.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 89.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 89.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 90.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 90.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 91.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 91.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 92.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 92.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 93.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 93.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 94.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 94.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 95.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 95.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 96.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 96.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 97.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 97.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 98.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 98.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 99.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke 99.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/So/Joke.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/photo_2023-06-18_10-20-50_clipdrop-background-removal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/photo_2023-06-18_10-20-50_clipdrop-background-removal.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameEventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameEventManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IncomingMessageCustomControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IncomingMessageCustomControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JokeContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JokeContainer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainPageCustomControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainPageCustomControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SentMessageCustomControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SentMessageCustomControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/IncomingMessage.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/IncomingMessage.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiResource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Test.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Test.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UI/MainPage.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/MainPage.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/SentMessage.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/SentMessage.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/YandexGamesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/YandexGamesManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +318,7 @@
       <workItem from="1696439013731" duration="27000" />
       <workItem from="1696439055399" duration="6066000" />
       <workItem from="1696445836479" duration="6639000" />
-      <workItem from="1696487959423" duration="3146000" />
+      <workItem from="1696487959423" duration="9513000" />
     </task>
     <servers />
   </component>

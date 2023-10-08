@@ -43,7 +43,7 @@ namespace Anecdotes
             _enButton = this.Q<VisualElement>("En");
             _onlineText = this.Q<Label>("OnlineText");
 
-            _contactText.text = SaveData.Instance.Language == "ru" ? "Твой друг" : "Your friend";
+            _contactText.text = SaveData.Instance.Language == "ru" ? "Друг" : "Friend";
             _ruButton.RegisterCallback<ClickEvent, string>(OnLanguageButtonClicked, "ru");
             _enButton.RegisterCallback<ClickEvent, string>(OnLanguageButtonClicked, "en");
             
@@ -97,7 +97,7 @@ namespace Anecdotes
 
         public void UpdateJokesText()
         {
-            _contactText.text = SaveData.Instance.Language == "ru" ? "Твой друг" : "Your friend";
+            _contactText.text = SaveData.Instance.Language == "ru" ? "Друг" : "Friend";
             _onlineText.text = SaveData.Instance.Language == "ru" ? "В сети" : "Online";
             
             var jokesList = _scrollView.Query<IncomingMessageCustomControl>().ToList();
