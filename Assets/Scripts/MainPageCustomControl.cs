@@ -1,7 +1,4 @@
-﻿using UnityEngine;
-using UnityEngine.UIElements;
-using UnityEngine.UIElements.Experimental;
-using YandexSDK.Scripts;
+﻿using UnityEngine.UIElements;
 
 namespace Anecdotes
 {
@@ -17,13 +14,6 @@ namespace Anecdotes
         private ScrollView _scrollView;
         private VisualElement _scrollContainer;
 
-        private ValueAnimation<float> _currentAnimation;
-
-        private Label _contactText;
-        private VisualElement _ruButton;
-        private VisualElement _enButton;
-        private Label _onlineText;
-
         public new class UxmlFactory : UxmlFactory<MainPageCustomControl>
         {
         }
@@ -37,39 +27,10 @@ namespace Anecdotes
             _scrollView = this.Q<ScrollView>();
             _scrollContainer = _scrollView.Q<VisualElement>("unity-content-container");
             _scrollView.Clear();
-
-            _contactText = this.Q<Label>("ContactText");
-            _ruButton = this.Q<VisualElement>("Ru");
-            _enButton = this.Q<VisualElement>("En");
-            _onlineText = this.Q<Label>("OnlineText");
-
-            _contactText.text = SaveData.Instance.Language == "ru" ? "Друг" : "Friend";
-            _ruButton.RegisterCallback<ClickEvent, string>(OnLanguageButtonClicked, "ru");
-            _enButton.RegisterCallback<ClickEvent, string>(OnLanguageButtonClicked, "en");
-            
-            _onlineText.text = SaveData.Instance.Language == "ru" ? "В сети" : "Online";
-
-            //_scrollContainer.RegisterCallback<GeometryChangedEvent>(Callback);
-        }
-
-        private void OnLanguageButtonClicked(ClickEvent evt, string lan)
-        {
-            SaveData.Instance.SetLanguage(lan);
         }
 
         private void Callback(GeometryChangedEvent evt)
         {
-            _currentAnimation?.Stop();
-            _currentAnimation?.Recycle();
-
-            // _currentAnimation = _scrollView.experimental.animation.Start(_scrollView.verticalScroller.value,
-            //         _scrollView.verticalScroller.highValue, 400, (vs,
-            //             value) =>
-            //         {
-            //             _scrollView.verticalScroller.value = value;
-            //         })
-            //     .Ease(Easing.InOutCubic).KeepAlive();
-
             _scrollView.verticalScroller.value = _scrollView.verticalScroller.highValue;
             _scrollContainer.UnregisterCallback<GeometryChangedEvent>(Callback);
         }
@@ -93,29 +54,6 @@ namespace Anecdotes
         {
             _scrollContainer.RegisterCallback<GeometryChangedEvent>(Callback);
             _scrollView.Add(_currentSent);
-        }
-
-        public void UpdateJokesText()
-        {
-            _contactText.text = SaveData.Instance.Language == "ru" ? "Друг" : "Friend";
-            _onlineText.text = SaveData.Instance.Language == "ru" ? "В сети" : "Online";
-            
-            var jokesList = _scrollView.Query<IncomingMessageCustomControl>().ToList();
-            foreach (var joke in jokesList)
-            {
-                joke.UpdateText();
-            }
-        }
-
-        private VisualElement GetSpaceElement(int height)
-        {
-            return new VisualElement
-            {
-                style =
-                {
-                    height = height
-                }
-            };
         }
     }
 }

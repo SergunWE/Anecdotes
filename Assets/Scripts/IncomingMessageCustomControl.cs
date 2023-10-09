@@ -25,7 +25,7 @@ namespace Anecdotes
 
         public void UpdateText()
         {
-            _incomingText.text = _jokeSo.GetJoke();
+            _incomingText.text = _jokeSo.GetJoke;
             _timeText.text = _time.ToShortTimeString();
         }
     }

@@ -3,7 +3,7 @@
     <Anecdotes.IncomingMessageCustomControl>
         <ui:VisualElement style="flex-grow: 0; padding-top: 20px; padding-right: 30px; padding-bottom: 10px; padding-left: 30px; background-color: rgb(179, 215, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 40px; border-top-right-radius: 40px; border-bottom-right-radius: 40px; border-bottom-left-radius: 40px; width: 80%; margin-top: 30px; margin-right: 30px; margin-bottom: 30px; margin-left: 30px;">
             <ui:Label tabindex="-1" text="Test" parse-escape-sequences="true" display-tooltip-when-elided="true" name="IncomingMessageText" style="white-space: normal; -unity-text-align: lower-left;" />
-            <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TimeText" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 20px; -unity-text-align: upper-right;" />
+            <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TimeText" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 23px; -unity-text-align: upper-right;" />
         </ui:VisualElement>
     </Anecdotes.IncomingMessageCustomControl>
 </ui:UXML>

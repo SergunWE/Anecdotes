@@ -1,5 +1,4 @@
-﻿using System;
-using Anecdotes;
+﻿using Anecdotes;
 using UnityEngine;
 
 namespace Assets

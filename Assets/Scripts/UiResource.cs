@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UIElements;
 using YandexSDK.Scripts;
@@ -25,19 +24,12 @@ namespace Anecdotes
 
         private void OnEnable()
         {
-            GameEventManager.Instance.DataChanged += OnDataChanged;
             GameEventManager.Instance.Reaction += StartNewJoke;
         }
         
         private void OnDisable()
         {
-            GameEventManager.Instance.DataChanged -= OnDataChanged;
             GameEventManager.Instance.Reaction -= StartNewJoke;
-        }
-
-        private void OnDataChanged()
-        {
-            _control.UpdateJokesText();
         }
 
         private void Start()

@@ -6,7 +6,7 @@
                 <ui:VisualElement name="Like" style="flex-grow: 0; width: 150px; height: 150px; background-image: url(&apos;project://database/Assets/Sprites/like.png?fileID=2800000&amp;guid=cf2f745cf8846a445a1212a6e7e4f87e&amp;type=3#like&apos;); flex-direction: column; padding-right: 0; margin-right: 20px;" />
                 <ui:VisualElement name="Dislike" style="flex-grow: 0; width: 150px; height: 150px; background-image: url(&apos;project://database/Assets/Sprites/like.png?fileID=2800000&amp;guid=cf2f745cf8846a445a1212a6e7e4f87e&amp;type=3#like&apos;); rotate: 180deg; margin-left: 20px;" />
             </ui:VisualElement>
-            <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TimeText" style="display: flex; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 20px; width: 100%; -unity-text-align: lower-left;" />
+            <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TimeText" style="display: flex; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 23px; width: 100%; -unity-text-align: lower-left;" />
         </ui:VisualElement>
     </Anecdotes.SentMessageCustomControl>
 </ui:UXML>

@@ -1,5 +1,5 @@
 Label {
-    font-size: 40px;
+    font-size: 41px;
 }
 
 .unity-scroll-view__content-viewport {
