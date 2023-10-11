@@ -1,7 +1,6 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -119,8 +118,8 @@ namespace YandexSDK.Scripts
         {
             try
             {
-                string json = JsonConvert.SerializeObject(playerData);
-                savePlayerData(json);
+                // string json = JsonConvert.SerializeObject(playerData);
+                // savePlayerData(json);
             }
             catch
             {
