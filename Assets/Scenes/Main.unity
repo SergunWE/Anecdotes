@@ -675,7 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayStartup: 0
-  delaySeconds: 60
+  delaySeconds: 180
 --- !u!4 &2109092843
 Transform:
   m_ObjectHideFlags: 0

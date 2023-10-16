@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3540e3-1d13-4743-bf84-9117da793af5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/incoming.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/incoming.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/sent.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/sent.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/like.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/like.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/photo_2023-06-18_10-20-50.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/photo_2023-06-18_10-20-50.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/photo_2023-06-18_10-20-50_clipdrop-background-removal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/photo_2023-06-18_10-20-50_clipdrop-background-removal.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/wallpaperflare.com_wallpaper.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/wallpaperflare.com_wallpaper.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/Renderer2D.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/Renderer2D.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/UniversalRP.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/LocalYandexData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/LocalYandexData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/YandexGamesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/YandexGamesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +107,7 @@
       <workItem from="1696445836479" duration="6639000" />
       <workItem from="1696487959423" duration="9513000" />
       <workItem from="1696876491253" duration="2659000" />
-      <workItem from="1697019071852" duration="677000" />
+      <workItem from="1697019071852" duration="1268000" />
     </task>
     <servers />
   </component>
