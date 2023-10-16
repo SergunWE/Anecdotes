@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7694be6dce4e6b641aeb0fa6fd6be5cf, type: 3}
   m_Name: Joke 40
   m_EditorClassIdentifier: 
-  ruJoke: "- \u0412\u043E\u0432\u0430 \u0441\u043A\u043E\u043B\u044C\u043A\u043E
+  ruJoke: "- \u0428\u0430\u0439\u043B\u0443\u0448\u0430\u0439 \u0441\u043A\u043E\u043B\u044C\u043A\u043E
     \u0442\u0435\u0431\u0435 \u043B\u0435\u0442?\r\n- 3+5-2."

@@ -1,13 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine.UIElements;
 
 namespace Anecdotes
 {
     public class SentMessageCustomControl : VisualElement
     {
-        private VisualElement _like;
-        private VisualElement _dislike;
+        private VisualElement _reactionRoot;
         private Label _timeText;
+
+        private readonly List<VisualElement> _reactions = new();
         
         public new class UxmlFactory : UxmlFactory<SentMessageCustomControl>
         {
@@ -20,25 +22,33 @@ namespace Anecdotes
 
         private void Attach(AttachToPanelEvent evt)
         {
-            _like = this.Q<VisualElement>("Like");
-            _dislike = this.Q<VisualElement>("Dislike");
+            _reactionRoot = this.Q<VisualElement>("ReactionRoot");
             _timeText ??= this.Q<Label>("TimeText");
-            
-            _like?.RegisterCallback<ClickEvent, VisualElement>(OnReactionClicked, _dislike);
-            _dislike?.RegisterCallback<ClickEvent, VisualElement>(OnReactionClicked, _like);
+
+            foreach (var child in _reactionRoot.Children())
+            {
+                _reactions.Add(child);
+                child.RegisterCallback<ClickEvent, VisualElement>(OnReactionClicked, child);
+            }
 
             _timeText.text = "";
         }
 
         private void OnReactionClicked(ClickEvent evt, VisualElement element)
         {
-            element.style.display = new StyleEnum<DisplayStyle>(DisplayStyle.None);
+            
             _timeText.text = DateTime.Now.ToShortTimeString();
             
             GameEventManager.Instance.Reaction?.Invoke();
-            
-            _like.UnregisterCallback<ClickEvent, VisualElement>(OnReactionClicked);
-            _dislike.UnregisterCallback<ClickEvent, VisualElement>(OnReactionClicked);
+
+            foreach (var reaction in _reactions)
+            {
+                if (reaction != element)
+                {
+                    reaction.style.display = new StyleEnum<DisplayStyle>(DisplayStyle.None);
+                }
+                reaction.UnregisterCallback<ClickEvent, VisualElement>(OnReactionClicked);
+            }
         }
     }
 }
