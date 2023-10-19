@@ -15,6 +15,7 @@ namespace Anecdotes
         [SerializeField, Space] private JokeContainer jokeContainer;
 
         private MainPageCustomControl _control;
+        private bool _firstJokeShowed;
 
         private void Awake()
         {
@@ -35,21 +36,20 @@ namespace Anecdotes
         private void Start()
         {
             FullscreenAdManager.Instance.AdClosed += StartNewJoke;
-            YandexGamesManager.ApiReady();
             StartNewJoke();
         }
         
         private void StartNewJoke()
         {
-            if (FullscreenAdManager.Instance.CanShowAd())
+            if (FullscreenAdManager.Instance.CanShowAd() && _firstJokeShowed)
             {
-                FullscreenAdManager.Instance.ShowAd();
+                StartCoroutine(ShowAdCoroutine());
             }
             else
             {
                 StopCoroutine(ShowJokeCoroutine());
                 StartCoroutine(ShowJokeCoroutine());
-                
+                _firstJokeShowed = true;
             }
         }
 
@@ -60,6 +60,14 @@ namespace Anecdotes
             _control.ShowIncomingMessage();
             yield return new WaitForSeconds(1f);
             _control.ShowSentMessage();
+        }
+
+        private IEnumerator ShowAdCoroutine()
+        {
+            _control.ShowAdMessage();
+            yield return new WaitForSeconds(1f);
+            FullscreenAdManager.Instance.ShowAd();
+            _control.DeleteAdMessage();
         }
     }
 }

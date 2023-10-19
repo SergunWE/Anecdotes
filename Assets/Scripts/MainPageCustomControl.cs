@@ -14,6 +14,8 @@ namespace Anecdotes
         private ScrollView _scrollView;
         private VisualElement _scrollContainer;
 
+        private IncomingMessageCustomControl _adElement;
+
         public new class UxmlFactory : UxmlFactory<MainPageCustomControl>
         {
         }
@@ -54,6 +56,21 @@ namespace Anecdotes
         {
             _scrollContainer.RegisterCallback<GeometryChangedEvent>(Callback);
             _scrollView.Add(_currentSent);
+        }
+
+        public void ShowAdMessage()
+        {
+            _adElement = _incomingMessageAsset.Instantiate().Q<IncomingMessageCustomControl>();
+            _adElement.Init("Сейчас будет показана реклама");
+            _scrollContainer.RegisterCallback<GeometryChangedEvent>(Callback);
+            _scrollView.Add(_adElement);
+        }
+
+        public void DeleteAdMessage()
+        {
+            if (_adElement == null) return;
+            _scrollView.Remove(_adElement);
+            _adElement = null;
         }
     }
 }

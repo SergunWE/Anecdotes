@@ -23,7 +23,16 @@ namespace Anecdotes
             UpdateText();
         }
 
-        public void UpdateText()
+        public void Init(string jokeString)
+        {
+            _time = DateTime.Now;
+            _incomingText ??= this.Q<Label>("IncomingMessageText");
+            _timeText ??= this.Q<Label>("TimeText");
+            _incomingText.text = jokeString;
+            _timeText.text = _time.ToShortTimeString();
+        }
+
+        private void UpdateText()
         {
             _incomingText.text = _jokeSo.GetJoke;
             _timeText.text = _time.ToShortTimeString();
