@@ -26,15 +26,19 @@ mergeInto(LibraryManager.library, {
   },
 
   requestReviewGame: function () {
-    ysdk.feedback.canReview().then(({ value, reason }) => {
-      if (value) {
-        ysdk.feedback.requestReview().then(({ feedbackSent }) => {
-          console.log(feedbackSent);
-        });
-      } else {
-        console.log(reason);
-      }
-    });
+    try {
+      ysdk.feedback.canReview().then(({ value, reason }) => {
+        if (value) {
+          ysdk.feedback.requestReview().then(({ feedbackSent }) => {
+            console.log(feedbackSent);
+          });
+        } else {
+          console.log(reason);
+        }
+      });
+    } catch (err) {
+      console.error(err);
+    }
   },
 
   getReviewStatus: function () {
@@ -68,7 +72,6 @@ mergeInto(LibraryManager.library, {
   savePlayerData: function (data) {
     try {
       var dateString = UTF8ToString(data);
-      //console.log(dateString);
       var myobj = JSON.parse(dateString);
       player.setData(myobj, true).then(() => {
         console.log("data is set");
@@ -79,40 +82,38 @@ mergeInto(LibraryManager.library, {
   },
 
   loadPlayerData: function (objectName, methodName) {
-    var obj = UTF8ToString(objectName);
-    var method = UTF8ToString(methodName);
+    let obj = UTF8ToString(objectName);
+    let method = UTF8ToString(methodName);
     try {
-      YaGames.init().then(_ysdk => {
-        console.log("Player Yandex Init");
-        _ysdk.getPlayer().then(_player => {
-          console.log("Get Player");
-          _player.getData().then((_date) => {
-            console.log("Get Data");
-            var myJSON = JSON.stringify(_date);
-            console.log(myJSON);
-            myGameInstance.SendMessage(obj, method, myJSON);
-          }).catch(err => {
-            console.error(err);
-            setTimeout(() => _loadPlayerData(objectName, methodName), 1000); // Retry the function
+        if (playerData !== null && playerData !== undefined) {
+          waitForUnity().then((_unityInstance) => {
+            unityInstance.SendMessage(obj, method, playerData);
           });
-        }).catch(err => {
-          console.error(err);
-          setTimeout(() => _loadPlayerData(objectName, methodName), 1000); // Retry the function
-        });
-      }).catch(err => {
-        console.error(err);
-        setTimeout(() => _loadPlayerData(objectName, methodName), 1000); // Retry the function
-      });
+        }
+        else {
+          initPlayer().then((_player) => {
+            player.getData().then((_date) => {
+              var myJSON = JSON.stringify(_date);
+              console.log(myJSON);
+              playerData = myJSON;
+              waitForUnity().then((_unityInstance) => {
+                unityInstance.SendMessage(obj, method, myJSON);
+              });
+            });
+          });
+        }
     } catch (error) {
       console.error(error);
-      setTimeout(() => _loadPlayerData(objectName, methodName), 1000); // Retry the function
+      waitForUnity().then((_unityInstance) => {
+        unityInstance.SendMessage(obj, method, '');
+      });
     }
   },
 
   setToLeaderboard: function (lbName, value) {
     try {
       var lbNameString = UTF8ToString(lbName);
-      ysdk.getLeaderboards().then((lb) => {
+      initLb().then((_lb) => {
         lb.setLeaderboardScore(lbNameString, value);
       });
     } catch (err) {
@@ -129,64 +130,64 @@ mergeInto(LibraryManager.library, {
       return buffer;
     } catch (err) {
       console.error(err);
-      return null;
+      return '';
     }
   },
 
-  helloString: function (str) {
-    window.alert(UTF8ToString(str));
-  },
-
   showSplashPageAdv: function (objectName, methodName) {
-    var obj = UTF8ToString(objectName);
-    var method = UTF8ToString(methodName);
-    console.log(obj);
-    console.log(method);
-    ysdk.adv.showFullscreenAdv({
-      callbacks: {
-        onOpen: function () {
-          myGameInstance.SendMessage(obj, method, 0);
-        },
-        onClose: function (wasShown) {
-          myGameInstance.SendMessage(obj, method, 1);
-        },
-        onError: function (error) {
-          myGameInstance.SendMessage(obj, method, -1);
-        },
-      },
+    let obj = UTF8ToString(objectName);
+    let method = UTF8ToString(methodName);
+    waitForYsdk().then((_ysdk) => {
+      waitForUnity().then((_unityInstance) => {
+        _ysdk.adv.showFullscreenAdv({
+          callbacks: {
+            onOpen: function () {
+              unityInstance.SendMessage(obj, method, 0);
+            },
+            onClose: function (wasShown) {
+              unityInstance.SendMessage(obj, method, 1);
+            },
+            onError: function (error) {
+              unityInstance.SendMessage(obj, method, -1);
+            },
+          },
+        });
+      });
     });
   },
 
   showRewardedAdv: function (objectName, methodName) {
-    var obj = UTF8ToString(objectName);
-    var method = UTF8ToString(methodName);
-    console.log(obj);
-    console.log(method);
-    ysdk.adv.showRewardedVideo({
-      callbacks: {
-        onOpen: () => {
-          console.log("Video ad open.");
-          myGameInstance.SendMessage(obj, method, 0);
+    let obj = UTF8ToString(objectName);
+    let method = UTF8ToString(methodName);
+    waitForYsdk().then((_ysdk) => {
+      _ysdk.adv.showRewardedVideo({
+        callbacks: {
+          onOpen: () => {
+            console.log("Video ad open.");
+            unityInstance.SendMessage(obj, method, 0);
+          },
+          onRewarded: () => {
+            console.log("Rewarded!");
+            unityInstance.SendMessage(obj, method, 1);
+          },
+          onClose: () => {
+            console.log("Video ad close.");
+            unityInstance.SendMessage(obj, method, 2);
+          },
+          onError: (e) => {
+            console.log("Error while open video ad:", e);
+            unityInstance.SendMessage(obj, method, -1);
+          },
         },
-        onRewarded: () => {
-          console.log("Rewarded!");
-          myGameInstance.SendMessage(obj, method, 1);
-        },
-        onClose: () => {
-          console.log("Video ad close.");
-          myGameInstance.SendMessage(obj, method, 2);
-        },
-        onError: (e) => {
-          console.log("Error while open video ad:", e);
-          myGameInstance.SendMessage(obj, method, -1);
-        },
-      },
+      });
     });
   },
 
   apiReady: function () {
     try {
-      ysdk.features.LoadingAPI.ready();
+      waitForYsdk().then((_ysdk) => {
+        _ysdk.features.LoadingAPI.ready();
+      });
     } catch (err) {
       console.error(err);
     }
@@ -202,6 +203,23 @@ mergeInto(LibraryManager.library, {
     } catch (err) {
       console.error(err);
       return null;
+    }
+  },
+
+  callYandexMetric: function (goalName) {
+    try {
+      var name = UTF8ToString(goalName);
+      ym(ymId, 'reachGoal', name);
+    } catch (err) {
+    }
+  },
+  
+  ysdkInit: function () {
+    try {
+      if(ysdk == null || ysdk == undefined) return false;
+      return true;
+    } catch (err) {
+      return false;
     }
   },
 });

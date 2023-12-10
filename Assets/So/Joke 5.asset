@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7694be6dce4e6b641aeb0fa6fd6be5cf, type: 3}
   m_Name: Joke 5
   m_EditorClassIdentifier: 
-  ruJoke: "\u2014 \u0422\u044B \u043A\u0442\u043E?\r\n\u2014 \u041A\u043E\u0442.\r\n\u2014
-    \u0410 \u0447\u0451 \u0442\u0430\u043A\u043E\u0439 \u0441\u0438\u043D\u0438\u0439?\r\n\u2014
-    \u0428\u0430\u0439\u043B\u0443\u0448\u0430\u0439.\r\n"
+  ruJoke: "\xAB\u0411\u0440\u0430\u0442 \u0437\u0430 \u0431\u0440\u0430\u0442\u0430,
+    \u043F\u0430\u0446\u0430\u043D \u0437\u0430 \u043F\u0430\u0446\u0430\u043D\u0430!\xBB"

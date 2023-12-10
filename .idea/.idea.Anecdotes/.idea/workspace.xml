@@ -5,7 +5,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3540e3-1d13-4743-bf84-9117da793af5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/SkipSplash.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/SkipSplash.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Anecdotes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ApiReady.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ApiReady.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 10.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 11.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 12.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 13.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 13.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 14.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 14.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 15.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 15.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 16.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 16.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 17.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 17.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 18.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 18.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 19.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 19.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 20.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 20.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 21.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 21.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 22.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 22.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 23.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 23.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 24.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 24.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 25.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 25.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 26.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 26.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 27.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 27.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 28.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 28.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 29.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 29.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 30.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 30.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 31.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 31.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 32.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 32.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 33.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 33.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 34.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 34.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 35.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 35.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 36.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 36.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 37.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 37.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 38.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 38.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 39.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 39.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 40.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 40.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 41.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 41.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 42.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 42.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 43.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 43.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 44.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 44.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 45.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 45.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 46.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 46.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 47.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 47.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 48.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 48.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 50.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 50.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 51.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 51.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 52.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 52.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 53.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 53.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 54.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 54.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 55.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 55.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 56.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 56.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 57.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 57.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 58.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 58.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 6.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 60.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 60.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 63.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 63.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 64.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 64.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 65.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 65.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 7.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 71.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 71.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 72.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 72.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 73.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 73.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 78.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 78.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 8.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 85.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 85.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 86.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 86.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 87.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 87.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 9.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke 96.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke 96.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/So/Joke.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/So/Joke.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Png.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/avavaav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/avavaav.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/dd269f80bfca28d6280091ea3a5c4406.1000x1000x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/dd269f80bfca28d6280091ea3a5c4406.1000x1000x1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/imgonline-com-ua-Blur-C8hnWXg8wg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/imgonline-com-ua-Blur-C8hnWXg8wg.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/smurf-cat-does-something-shocking-v0-dd34xi5le5qb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/smurf-cat-does-something-shocking-v0-dd34xi5le5qb1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/smurf-cat-smurf-cat-v0-eocrbrl1t9ob1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/smurf-cat-smurf-cat-v0-eocrbrl1t9ob1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/MainPage.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/MainPage.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/SentMessage.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/SentMessage.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexSDK/Plugins/JavaScriptFunctions.jslib" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexSDK/Plugins/JavaScriptFunctions.jslib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/YandexGamesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/YandexSDK/Scripts/YandexGamesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +113,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/79c7b132c51745cbae03eebea8111c0e175600/ae/5d662a9d/DisplayStyle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/79c7b132c51745cbae03eebea8111c0e175600/b3/8c1982e9/IStyle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/79c7b132c51745cbae03eebea8111c0e175600/f0/26a52315/Scroller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/YandexSDK/Scripts/SkipSplash.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -40,7 +134,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "shailushai",
+    "git-widget-placeholder": "word__man",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,7 +152,7 @@
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;E:\Project Unity New\Anecdotes&quot; -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Project Unity New\Anecdotes" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -66,7 +160,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;E:\Project Unity New\Anecdotes&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Project Unity New\Anecdotes" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -109,6 +203,8 @@
       <workItem from="1696876491253" duration="2659000" />
       <workItem from="1697019071852" duration="1268000" />
       <workItem from="1697475888919" duration="4674000" />
+      <workItem from="1697740821699" duration="5090000" />
+      <workItem from="1702117205535" duration="3974000" />
     </task>
     <servers />
   </component>

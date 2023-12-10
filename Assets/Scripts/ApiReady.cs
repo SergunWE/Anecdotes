@@ -15,6 +15,11 @@ namespace Assets
         private IEnumerator CallApiReady()
         {
             yield return new WaitForEndOfFrame();
+            while (!YandexGamesManager.YsdkInit())
+            {
+                yield return null;
+            }
+            
             YandexGamesManager.ApiReady();
         }
     }
